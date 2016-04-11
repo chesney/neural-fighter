@@ -7,6 +7,7 @@ and characters.
 3. Add a Proper health system
 4. Multiplayer gaming over the Web ( Socket.IO )
 5. Improve coding conventions ( Namespaces etc )
+6. Add some form of neural network ( eg. Mar I/O )
 
 
 
