@@ -7,7 +7,7 @@ namespace = window.namespace || {};
 namespace.app = ( function(){
     // Enums
     var CHARACTER_TYPE = Object.freeze({"HUMAN" : {'name' : "Human"}, "ALIEN" : {'name' : "ALIEN"}});
-    var FIGHTING_STYLE = Object.freeze({"BOXER" : {'name' : "Boxer"}, "KARATE" : {'name' : "Karate"}});
+    var FIGHTING_STYLE = Object.freeze({"BOXER" : {'name' : "Boxing"}, "KARATE" : {'name' : "Karate"}});
     var ATTACK_TYPE = Object.freeze(
         {
             'KICK' : {
