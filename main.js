@@ -149,12 +149,12 @@ namespace.app = ( function(){
     // Create a Boxer 
     var opponent = new Character()
         .setName("Mike")
-        .setFighterType(FIGHTING_STYLE.BOXER)
+        .setFighterType(FIGHTING_STYLE.BOXING)
         .setGender("Male")
         .setHealth(100)
         .setType(CHARACTER_TYPE.HUMAN)
         .setAlive()
-        .setAbilities(FIGHTING_STYLE.BOXER)
+        .setAbilities(FIGHTING_STYLE.BOXING)
         .save();
 
     // Create a Karate kid
@@ -209,6 +209,3 @@ namespace.app = ( function(){
 
 
 //namespace.app.startBattle();
-//get character : namespace.app.db.getCharacter("Daniel");
-
-
